@@ -1,0 +1,86 @@
+.classFlex {
+    height: 48px;
+    width: 65%;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.newFlex {
+    justify-content: center;
+    display: flex;
+    margin-top: 8rem;
+}
+
+#displayRestaurants img,#showRestaurants img {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 4px;
+}
+
+.box {
+    display: flex;
+    margin: 2rem;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.item {
+    margin-left: 1rem;
+    margin-top: 6px;
+}
+
+.rest {
+    font-size: 14px;
+    color: #7e808c;
+}
+
+.newIcon {
+    margin-right: 11px;
+}
+
+.container1 {
+    font-family: "Montserrat";
+    width: 60%;
+    margin: auto;
+}
+#displayRestaurants{
+    width: 100%;
+    margin: 0;
+}
+
+
+#popular>p {
+    margin: 1.5rem;
+    /* margin-left: 14rem; */
+}
+
+#displayRestaurants {
+    margin: 1rem;
+    /* margin-left: 14rem; */
+    margin-right: 14rem;
+    display: flex;
+}
+
+.divB{
+    margin-right: 23px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.nameCls {
+    font-size: 12px;
+}
+input.form-control:focus{
+    box-shadow: inset 0 0px 0 #ddd;
+}
+#searchText{
+    border: none;
+}
+#search-addon{
+    background-color: white;
+}
+#showClose{
+    cursor: pointer;
+}
