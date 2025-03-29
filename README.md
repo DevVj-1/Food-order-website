@@ -19,6 +19,7 @@ This repository hosts the source code for FOOD, a dynamic food ordering website 
 - Logout
 - Add to Cart
 - Place Order
+- Place Order from Specific restaurants
 - Order Management
 - Filter Food Products
 - Beautiful Alerts
