@@ -97,13 +97,45 @@ Start the Backend server
 
 ![run_backend](https://github.com/user-attachments/assets/e6a4b799-97e6-4fa0-b12d-22e1644883d3)
 
+##
+##
 
 ## Tech Stack
 * [React](https://reactjs.org/)
 * [Node.js](https://nodejs.org/en)
 * [Express.js](https://expressjs.com/)
 * [Mongodb](https://www.mongodb.com/)
-* [Stripe](https://stripe.com/)
+
+## Frontend Technologies:
+  
+HTML5 - Structure of the webpage.
+
+CSS3 - Styling and layout.
+
+Bootstrap (CDN) - For responsive design.
+
+Tailwind CSS - Another styling framework used.
+
+Custom CSS (index.css, navbar1.css, login1.css).
+
+JavaScript - Provides interactivity and dynamic content.
+
+Vanilla JS (index.js, login1.js).
+
+FontAwesome Icons (for UI enhancements).
+
+Bootstrap JavaScript (for modals, dropdowns, and other UI components).
+
+## Backend Technologies:
+
+Node.js with Express.js (Common for handling APIs)
+
+## Database (Possible Options):
+
+* MongoDB 
+
+##
+##
 
 ## Deployment
 
