@@ -1,4 +1,4 @@
-# FOOD  - Food Ordering Website
+# FOOD 🍔  - Food Ordering Website 
 
 This repository hosts the source code for FOOD, a dynamic food ordering website built with the MERN Stack. It offers a user-friendly platform for seamless online food ordering.
 
@@ -9,7 +9,7 @@ This repository hosts the source code for FOOD, a dynamic food ordering website 
 3) Vijay Malav
 4) Khushi Talreja
 
-## Demo 
+## Demo  🍕
 
 - User Panel: ( https://devvj-1.github.io/Food-order-website/ )
   
@@ -24,7 +24,7 @@ This repository hosts the source code for FOOD, a dynamic food ordering website 
 - Filter Food Products
 - Beautiful Alerts
 
-## Screenshots
+## Screenshots 
 
 ![Screenshot 2025-03-22 111058](https://github.com/user-attachments/assets/2bfc68c7-e24b-4c26-8ed5-f3f82291a589)
 
@@ -45,11 +45,11 @@ This repository hosts the source code for FOOD, a dynamic food ordering website 
 
 Clone the Frontend and backend project files
 
-Frontend :
+Frontend 🍝 :
 ```
     https://github.com/DevVj-1/Food-order-website.git
 ```
-Backend :
+Backend 🫕:
 ```
     https://github.com/DevVj-1/Food-order-website-backend.git
 ```
@@ -101,11 +101,11 @@ Start the Backend server
 ##
 ##
 
-## Tech Stack
-* [React](https://reactjs.org/)
-* [Node.js](https://nodejs.org/en)
-* [Express.js](https://expressjs.com/)
-* [Mongodb](https://www.mongodb.com/)
+## Tech Stack 🍜
+* [Node.js](https://nodejs.org/en)  (as the backend runtime environment)
+* [Express.js](https://expressjs.com/) (as a backend framework for handling routes)
+* [Mongodb](https://www.mongodb.com/) ( as DataBase ) 
+
 
 ## Frontend Technologies:
   
@@ -127,18 +127,16 @@ FontAwesome Icons (for UI enhancements).
 
 Bootstrap JavaScript (for modals, dropdowns, and other UI components).
 
-## Backend Technologies:
+## Backend Technologies 🌭:
 
 Node.js with Express.js (Common for handling APIs)
 
-## Database (Possible Options):
+## Database 🥪 :
 
 * MongoDB 
 
-##
-##
 
-## Deployment
+## Deployment 🍱
 
 The application can be deployed on Render or Github.
 
