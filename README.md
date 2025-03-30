@@ -74,7 +74,8 @@ Install dependencies (backend)
 ```
 Setup Environment Vaiables
 
-```Make .env file in "backend" folder and store environment Variables
+```
+Make .env file in "backend" folder and store environment Variables
 
   EMAIL_USER=Test7113@gmail.com
   EMAIL_PASS=pass123
@@ -82,11 +83,8 @@ Setup Environment Vaiables
 
  ```
 
-Start the Backend server
 
-```bash
-    nodemon server.js
-```
+
 
 Start the Frontend server
 
@@ -96,7 +94,24 @@ Start the Frontend server
 
 Start the Backend server
 
+Step 1:
+
 ![run_backend](https://github.com/user-attachments/assets/e6a4b799-97e6-4fa0-b12d-22e1644883d3)
+
+Step 2:
+
+Go to the https://cloud.mongodb.com/ and configer Ip server address on Network accessList:
+
+
+![Screenshot 2025-03-30 113434](https://github.com/user-attachments/assets/8c36ce5b-cb64-44ad-a991-ca2afade6ab0)
+
+
+Step 3:
+If you want to see users you can go to " Clusters >  Browse Collections > Users > food-users
+
+![database-usr](https://github.com/user-attachments/assets/cca24bf6-9f98-439c-8eee-9b40e2959da4)
+
+
 
 ##
 ##
