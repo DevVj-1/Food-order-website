@@ -77,15 +77,15 @@ Go to the project directory
 Install dependencies (frontend)
 
 ```bash
-    cd frontend
+    cd .\Food-order-website\
     npm install
 ```
 
 Install dependencies (backend)
 
 ```bash
-    cd backend
-    npm install
+    cd .\Food-order-website-backend\  
+    npm install .\package.json
 ```
 Setup Environment Vaiables
 
