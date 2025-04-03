@@ -26,6 +26,12 @@ This repository hosts the source code for FOOD, a dynamic food ordering website 
 
 ## Screenshots 
 
+- Our Customers Reviews ⭐⭐⭐
+
+![Screenshot 2025-04-03 134719](https://github.com/user-attachments/assets/c365a59d-ba12-4c7c-82b1-c1a8721dc94a)
+
+
+  
 - Landing Page with New Logo
 
 ![Screenshot 2025-04-03 113628](https://github.com/user-attachments/assets/bfa1b582-b54a-4af9-af09-f082a91ed71f)
@@ -44,6 +50,10 @@ This repository hosts the source code for FOOD, a dynamic food ordering website 
 - Login Popup
 
 ![Screenshot 2025-03-22 111024](https://github.com/user-attachments/assets/45236576-f6a9-4ce8-8e26-7d2a2024f293)
+
+- Meet Our Team
+
+![Screenshot 2025-04-03 134447](https://github.com/user-attachments/assets/5bf6ec99-4db7-4596-82c0-cb9733c80ba8)
 
 
 ## Run Locally
