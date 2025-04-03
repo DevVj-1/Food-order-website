@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - FOOD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://kit.fontawesome.com/a692ebc57f.js" crossorigin="anonymous"></script>
+    <style>
+      /* Combined CSS Styles */
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        line-height: 1.6;
+      }
+      
+      #logo {
+        height: 50px;
+        width: auto;
+      }
+      
+      .hero-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+      }
+      
+      .mission-card, .team-card, .feature-card {
+        transition: transform 0.3s ease;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+      
+      .mission-card:hover, .team-card:hover, .feature-card:hover {
+        transform: translateY(-10px);
+      }
+      
+      .team-img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+      
+      .feature-icon {
+        font-size: 2.5rem;
+        color: #ff6b6b;
+        margin-bottom: 15px;
+      }
+      
+      .contact-info {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+      
+      footer {
+        background-color: #343a40;
+        color: white;
+        padding: 30px 0;
+      }
+      
+      .social-icon {
+        color: white;
+        font-size: 1.5rem;
+        margin: 0 10px;
+        transition: color 0.3s ease;
+      }
+      
+      .social-icon:hover {
+        color: #ff6b6b;
+      }
+      
+      .btn-primary {
+        background-color: #ff6b6b;
+        border-color: #ff6b6b;
+        padding: 10px 25px;
+        border-radius: 30px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+      
+      .btn-primary:hover {
+        background-color: #ff5252;
+        border-color: #ff5252;
+        transform: translateY(-3px);
+      }
+      
+      .section-title {
+        position: relative;
+        margin-bottom: 40px;
+        padding-bottom: 15px;
+      }
+      
+      .section-title:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 3px;
+        background-color: #ff6b6b;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <a href="/">
+            <img src="../logo.png" alt="FOOD Logo" id="logo">
+          </a>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900" href="../landing_page.html">
+            <i class="fas fa-home"></i>
+            <span style="margin-left: 7px;">Home</span>
+          </a>
+          <a class="mr-5 hover:text-gray-900" href="../index.html">
+            <i class="fas fa-utensils"></i>
+            <span style="margin-left: 7px;">Restaurants</span>
+          </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <h1 class="display-4 fw-bold mb-4">About FOOD</h1>
+        <p class="lead mb-5">Delivering happiness, one meal at a time</p>
+        <a href="/foodItems/Fooditems.html" class="btn btn-primary btn-lg">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-5">
+      <div class="container py-5">
+        <h2 class="text-center section-title">Our Story</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="lead">Founded in 2025, Food began as a small team of food enthusiasts who wanted to revolutionize the way people experience food delivery. What started as a simple idea has now grown into a platform serving thousands of happy customers across multiple cities.</p>
+            <p>We partner with the best local restaurants and chefs to bring you a diverse selection of cuisines, all delivered with the care and quality you deserve. Our journey has been fueled by our passion for good food and our commitment to exceptional service.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-5 bg-light">
+      <div class="container py-5">
+        <h2 class="text-center section-title">Our Mission</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="mission-card p-4 text-center h-100 bg-white">
+              <div class="feature-icon">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <h3>Fast Delivery</h3>
+              <p>We promise to deliver your food fresh and fast, with most orders arriving in under 30 minutes.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="mission-card p-4 text-center h-100 bg-white">
+              <div class="feature-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h3>Quality Food</h3>
+              <p>We carefully select restaurant partners who share our commitment to quality ingredients and preparation.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="mission-card p-4 text-center h-100 bg-white">
+              <div class="feature-icon">
+                <i class="fas fa-smile"></i>
+              </div>
+              <h3>Happy Customers</h3>
+              <p>Your satisfaction is our top priority. We go above and beyond to ensure every order is perfect.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-5">
+      <div class="container py-5">
+        <h2 class="text-center section-title">Meet Our Team</h2>
+        <div class="row">
+          <div class="col-md-3 mb-4 text-center">
+            <div class="team-card p-4 h-100">
+              <img src="/images/pic5.webp" alt="Team Member" class="team-img mb-3 mx-auto">
+              <h4>DV</h4>
+              <p class="text-muted">CEO & Founder</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="team-card p-4 h-100">
+              <img src="/images/pic12.jpg" alt="Team Member" class="team-img mb-3 mx-auto">
+              <h4>Vladimir Putin</h4>
+              <p class="text-muted">Head of Technology</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="team-card p-4 h-100">
+              <img src="/images/pic11.jpeg" alt="Team Member" class="team-img mb-3 mx-auto">
+              <h4>Narendra Modi</h4>
+              <p class="text-muted">Customer Experience</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <div class="team-card p-4 h-100">
+              <img src="/images/pic10.jpg" alt="Team Member" class="team-img mb-3 mx-auto">
+              <h4>Lieutenant General Bhau Bhau</h4>
+              <p class="text-muted">Delivery Operations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5 bg-light">
+      <div class="container py-5">
+        <h2 class="text-center section-title">Why Choose FOOD?</h2>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="feature-card p-4 h-100 bg-white">
+              <h3><i class="fas fa-check-circle text-success me-2"></i> Wide Selection</h3>
+              <p>From local favorites to international cuisines, we offer an extensive menu selection to satisfy every craving.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="feature-card p-4 h-100 bg-white">
+              <h3><i class="fas fa-check-circle text-success me-2"></i> Easy Ordering</h3>
+              <p>Our user-friendly app and website make ordering food as simple as a few taps or clicks.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="feature-card p-4 h-100 bg-white">
+              <h3><i class="fas fa-check-circle text-success me-2"></i> Real-Time Tracking</h3>
+              <p>Track your order in real-time from the restaurant to your doorstep with our GPS tracking system.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="feature-card p-4 h-100 bg-white">
+              <h3><i class="fas fa-check-circle text-success me-2"></i> 24/7 Support</h3>
+              <p>Our customer support team is available around the clock to assist with any questions or concerns.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+      <div class="container py-5">
+        <h2 class="text-center section-title">Get In Touch</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="contact-info">
+              <h3 class="text-center mb-4">Contact Information</h3>
+              <p><i class="fas fa-map-marker-alt me-2"></i> 132/4, Dadabari - kota, Rajasthan</p>
+              <p><i class="fas fa-phone me-2"></i> +91 9785954171</p>
+              <p><i class="fas fa-envelope me-2"></i> support@FOOD.com</p>
+              <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary me-2"><i class="fas fa-comment me-1"></i> Live Chat</a>
+                <a href="mailto:support@FOOD.com" class="btn btn-outline-secondary"><i class="fas fa-envelope me-1"></i> Email Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="container">
+        <div class="mb-4">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="mb-3">
+          <a href="../about.html" class="text-white mx-2">About Us</a>
+          <a href="../privacy.html" class="text-white mx-2">Privacy Policy</a>
+          <a href="../terms.html" class="text-white mx-2">Terms of Service</a>
+          <a href="../careers.html" class="text-white mx-2">Careers</a>
+        </div>
+        <p class="mb-0">&copy; 2023 FOOD. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

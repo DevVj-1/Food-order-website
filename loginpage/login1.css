@@ -30,7 +30,7 @@
 #create,#already{
     font-weight: 800;
     cursor: pointer;
-    color: #fc8019;
+    color: #ff3838;
 }
 ._2tuBw{
     transition: opacity .3s ease-out;
@@ -111,7 +111,7 @@
     height: 50px;
     letter-spacing: 0;
     color: #fff;
-    background-color: #fc8019;
+    background-color: #ff3838;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
     text-transform: uppercase;
 }
@@ -234,7 +234,7 @@
     padding-top: 5px;
 }
 .Ku2oK:hover{
-    color: #fc8019;
+    color: #ff3838;
 }
 
 /* RECENT SEARCH */
@@ -301,5 +301,5 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 #search-city-name:hover{
-    color: #fc8019;
+    color: #ff3838;
 }

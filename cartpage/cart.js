@@ -93,7 +93,7 @@ addressSubmit.onsubmit=(event)=>{
     document.querySelector(".three").style.display="block"
 
    }else{
-    alert("Something went wrong!")
+    alert("Please Fill all details")
    }
 
 }

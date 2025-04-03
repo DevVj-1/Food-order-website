@@ -59,7 +59,7 @@
 }
 
 .other:hover{
-    color: #fc8019;
+    color: #ff3838;
 }
 
 #town:hover{
@@ -78,7 +78,7 @@
 #nav-down{
     /* position: absolute; */
     right: -6px;
-    color: #fc8019;
+    color: #ff3838;
     margin-left: 5px;
     padding-top: 12px;
 
@@ -90,15 +90,15 @@
     gap: 20px;
 }
 .items-center>a:hover{
-    color: #fc8019;
+    color: #ff3838;
 
 }
 .signin-nav:hover{
-    color: #fc8019;
+    color: #ff3838;
 
 }
 #Profile:hover{
-    color: #fc8019;
+    color: #ff3838;
 
 }
 #Profile{

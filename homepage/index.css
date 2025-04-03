@@ -48,9 +48,9 @@ body {
     display: none;
 }
 .fa-sliders{
-    color: #fc8019;
+    color: #ff3838;
     border-radius: 50%;
-    border: 1px solid #fc8019;
+    border: 1px solid #ff3838;
     padding: 5px;
     cursor: pointer;
 }
@@ -71,7 +71,7 @@ body {
     font-size: 16px;
 }
 #restobar > div:nth-of-type(2) > p:last-of-type:hover{
-    color:#fc8019;
+    color:#ff3838;
 }
 
 /* Filter Slide Div */
@@ -199,10 +199,10 @@ body {
     font-weight: 600;
     height: 50px;
     padding: 0 2rem;
-    color: #fc8019;
+    color: #ff3838;
     letter-spacing: 0;
     color: #fff;
-    background-color: #fc8019;
+    background-color: #ff3838;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
     -ms-flex: 1;
     flex: 1;
