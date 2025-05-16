@@ -105,6 +105,7 @@ Make .env file in "backend" folder and store environment Variables
 Start the Frontend server
 
 ```bash
+    ./index.html
     npm start
 ```
 
